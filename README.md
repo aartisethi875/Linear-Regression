@@ -2,9 +2,14 @@
 
 This repository contains code for performing linear regression using the scikit-learn library. The code is designed to predict air quality index (AQI) based on various atmospheric parameters.
 
+
 ## Dataset
 
-The code utilizes the "city_day.csv" dataset, which contains daily air quality data for multiple cities. The dataset is loaded using pandas and preprocessed before performing linear regression.
+This code utilizes the "city_day.csv" dataset, which contains daily air quality data for multiple cities in India. The dataset is obtained from Kaggle and can be accessed [here](https://www.kaggle.com/datasets/rohanrao/air-quality-data-in-india).
+
+Please refer to the Kaggle dataset documentation for more details on the data format and columns.
+
+Note: The dataset may require preprocessing steps, such as handling missing values or removing irrelevant columns, before using it for linear regression.
 
 ## Dependencies
 
@@ -14,14 +19,6 @@ The following dependencies are required to run the code:
 - numpy
 - matplotlib
 - scikit-learn
-
-## Dataset
-
-This code utilizes the "city_day.csv" dataset, which contains daily air quality data for multiple cities in India. The dataset is obtained from Kaggle and can be accessed [here](https://www.kaggle.com/datasets/rohanrao/air-quality-data-in-india).
-
-Please refer to the Kaggle dataset documentation for more details on the data format and columns.
-
-Note: The dataset may require preprocessing steps, such as handling missing values or removing irrelevant columns, before using it for linear regression.
 
 ## Results
 
